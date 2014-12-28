@@ -4,14 +4,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <title>Hotels Crawler</title>
-<meta name="og:title" content="JSON to CSV" />
+<meta name="og:title" content="Hotels Crawler" />
 
-<meta name="description" content="A simple, in-browser JSON viewer, and CSV converter." />
-<meta name="og:description" content="A simple, in-browser JSON viewer and CSV converter." />
+<meta name="description" content="A simple, application of Hotels Crawler." />
+<meta name="og:description" content="A simple, application of Hotels Crawler." />
 
-<meta name="author" content="Eric Mill" />
-<meta name="twitter:creator" content="@konklone" />
-<meta name="twitter:url" content="http://konklone.io/json/" />
+<meta name="author" content="Faizan Ayubi" />
+<meta name="twitter:creator" content="@faizanayubi" />
 
 <link rel="shortcut icon" href="/favicon.png" />
 
@@ -357,30 +356,7 @@
       });
       
     });
-
-    $('#vcid').change(function(e) {
-      var keyword = $('#vcid').val();
-      $.ajax({
-        url: 'process.php',
-        type: 'GET',
-        data: {action: 'getvcid', keyword: keyword},
-        success: function (data) {
-          var obj = JSON.parse(data);
-          console.log(obj);
-        }
-      })
-      .done(function() {
-        console.log("success");
-      })
-      .fail(function() {
-        console.log("error");
-      })
-      .always(function() {
-        console.log("complete");
-      });
-      
-    });
-
+    
   });
 </script>
 
