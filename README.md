@@ -1,4 +1,4 @@
-## JSON to CSV Converter
+## Hotels Crawler
 
 A simple Applicaton to get list of hotels from a website
 
