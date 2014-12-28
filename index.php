@@ -3,7 +3,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>JSON to CSV</title>
+<title>Hotels Crawler</title>
 <meta name="og:title" content="JSON to CSV" />
 
 <meta name="description" content="A simple, in-browser JSON viewer, and CSV converter." />
